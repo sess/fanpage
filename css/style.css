@@ -48,8 +48,50 @@ body{
     text-align:center;
 }
 
+.facts{
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.factBox{
+    border:5px white solid;
+    padding:100px;
+    margin:10px;
+    font-weight:bold;
+    width:100px;
+    height:100px;
+}
+
+#factOne{
+    background-image:url("https://media.self.com/photos/589231acc51a5afe4864598f/4:3/w_728,c_limit/added-sugar.jpg");
+}
+
+#factTwo{
+    background-image:url("https://www.mrbreakfast.com/cereal/c_174_granula_tin.jpg");
+}
+
+#factThree{
+    background-image:url("data:image/jpeg;base64,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");
+}
+
+#factFour{
+    background-image:url("https://blog.generalmills.com/wp-content/uploads/Puffing-Gun-4-700x466.jpg");
+}
+
+#factFive{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKIKtj0gnJ9ppuf3Dr4bou1bj8fpmdvU-arVkzWZ1A7yzSJeA8");
+    color:white;
+}
+
+#factSix{
+    background-image:url("https://tribwxin.files.wordpress.com/2015/03/cereal-boxes.jpg?quality=85&strip=all&w=400&h=225&crop=1");
+}
+
 .aboutMain {
     display:flex;
+    width:100%;
 }
 
 .leftPane{
@@ -60,6 +102,7 @@ body{
     padding-left:10%;
     padding-right:10%;
     padding-bottom:10%;
+    padding-top:5%;
     height:90%;
 }
 
@@ -71,6 +114,7 @@ body{
     padding-left:10%;
     padding-right:10%;
     padding-bottom:10%;
+    padding-top:5%;
     height:90%;
 }
 
@@ -78,6 +122,8 @@ body{
     display:flex;
     text-align:center;
     height:10%;
+    width:100%;
+    justify-content:center;
 }
 
 .gallery{
@@ -108,68 +154,3 @@ body{
     display:flex;
     justify-content:space-around;
 }
-
-/*.social{
-    bottom:0;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-}
-
-#copyright{
-    bottom:0;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-}*/
-
-/*
-.card{
-    height:98%;
-    width:100%;
-    position:absolute;
-    display:flex;
-    min-height:200px;
-    overflow-x:auto;
-    overflow-y:hidden;
-}
-
-/*.card::-webkit-scrollbar{
-    display:show;
-}
-
-.card--content{
-    background-color:#e74c3c;
-    min-width:250px;
-    margin:5px;
-}
-
-.cardtext{
-    position:relative;
-    text-align:center;
-    top:40%;
-    font-size:20px;
-}
-
-.overlay{
-    background-color:white;
-    height:100%;
-    width:100%;
-    position:absolute;
-    width:250px;
-    opacity:0.5;
-}
-
-#fact_one{
-    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJn5cm_ZDxVp5okgkwEcvEkwhZELo9rETa6cAbdgLjX_gLZJjI");
-}
-
-#fact_two{
-    background-image:url("https://www.mrbreakfast.com/cereal/c_772.jpg");
-}
-
-#fact_three{
-    background-image:url("https://previews.123rf.com/images/shaiith/shaiith1401/shaiith140100363/25159697-different-types-of-cereal-grains-with-ears.jpg");
-}
-
-*/
