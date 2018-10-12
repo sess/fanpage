@@ -56,12 +56,28 @@ body{
     display:flex;
     width:50%;
     justify-content:center;
+    text-align:center;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:10%;
+    height:90%;
 }
 
 .rightPane{
     display:flex;
     width:50%;
     justify-content:center;
+    text-align:center;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:10%;
+    height:90%;
+}
+
+#wikipedia_source{
+    display:flex;
+    text-align:center;
+    height:10%;
 }
 
 .gallery{
